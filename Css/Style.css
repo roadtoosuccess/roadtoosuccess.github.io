@@ -15,7 +15,7 @@ display: inline-block;
 .header input{
 	    flex:1;
 
-    height: 50px;
+    height: 30px;
     background: white;
     border: 0;
     outline: 0;
@@ -202,6 +202,12 @@ footer{
 	color: white;
 	background-color: black;
 }
+
+
+footer h1{
+	font-family:'WindSong', sans-serif ;
+	text-align: center;}
+
 #LAGERCG{
 	display: none;
 }
