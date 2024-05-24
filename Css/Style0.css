@@ -1,0 +1,172 @@
+
+.header{
+	background: black;
+	padding: 20px;
+	color: white;
+	width: 100%;
+position: fixed;
+z-index: 1;
+display: inline-block;
+}
+.header h1{
+	font-family:'WindSong', sans-serif ;
+	text-align: center;
+}
+.header input{
+	    flex:1;
+    height: 50px;
+    background: white;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color:#333;
+    border-radius: 5px;
+     width: 250px;
+    margin-left: -30px;
+}
+.header a{
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+
+
+}
+.header a:hover{
+border-bottom: 1px solid white;
+padding-bottom:10px ;
+    text-decoration: none;
+	
+
+}
+
+::placeholder{
+    color: #555;
+}
+
+.header .rezultat ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+    background-color: white;
+text-decoration: none;
+
+}
+.header .rezultat ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.header .rezultat ul li:hover{
+background-color:#e9f3ff;
+text-decoration: none;
+
+}
+.header .rezultat{
+max-height: 300px;
+overflow-y: scroll;
+}
+
+
+.main{
+	padding-top:115px ;
+	padding-bottom:115px ;
+}
+
+.main .obuka{
+	background-color:black ;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+text-align: center;
+color: white;
+padding-bottom: 40px;
+transition: 0.3s;
+margin-top:58px;
+transform:rotateY(0deg);
+height:450px ;
+width: 400px;
+}
+.main .obuka:hover{
+	background-color: #FFCE00;
+	cursor: pointer;
+	margin-top: 38px;
+	color: black;
+}
+.main .obuka h2{
+	background-color: #FFCE00;
+	
+}
+.main .obuka img{
+width: 250px;
+height: 250px;
+}
+.main .obuka h4{
+text-transform: uppercase;
+}
+.main .obuka p{
+color: #whitesmoke;
+}
+.main .obuka a{
+
+text-transform: uppercase;
+color: white;
+display: inline-block;
+border: 2px solid white;
+padding: 5px;
+
+}
+.main .obuka:hover a{
+color: black;
+
+}
+
+.main .drop{
+	display: inline-block;
+}
+.main .drop button{
+	background-color: #FFCE00;
+	color: black;
+	padding: 10px 15px;
+	border:1px solid black;
+	cursor: pointer;
+}
+.main .obuka:hover .drop button{
+	color: black;
+	border-color: black;
+}
+.main .drop a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 10px 15px;
+
+}
+.main .drop .kontent{
+	background-color: #fff;
+	position: absolute;
+	min-width: 100px;
+	box-shadow: 2px 2px 5px black;
+	display: none;
+}
+.main .drop:hover .kontent{
+	display: block;
+	
+
+}
+.main .drop:hover button{
+	background-color:white ;
+	color: white;
+
+}
+.main .drop a:hover{
+	background-color: black;
+	color: white;
+}
+#id{
+	border: 1px solid white;
+	text-decoration: none;
+	padding-bottom: 14px;
+	text-transform: none;
+}
